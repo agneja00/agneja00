@@ -92,14 +92,14 @@ function makeStatsSVG(s) {
 <svg width="500" height="240" viewBox="0 0 500 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1e1e2f"/>
-      <stop offset="100%" stop-color="#151525"/>
+     <stop offset="0%" stop-color="#24244a"/>
+     <stop offset="100%" stop-color="#15152a"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="240" rx="16" fill="url(#g)"/>
-  <text x="25" y="40" fill="#ff79c6" font-size="26" font-family="Segoe UI">Agnieska's GitHub Stats</text>
+  <rect width="500" height="240" rx="16" fill="url(#g)" filter="url(#shadow)"/>
+  <text x="30" y="38" fill="#ff79c6" font-size="22" font-family="Segoe UI" font-weight="bold">Agnieska's GitHub Stats</text>
 
-  <g font-size="18" font-family="Segoe UI">
+  <g font-size="17" font-family="Segoe UI">
     <text x="25" y="80" fill="#8be9fd">⭐ Total Stars Earned: ${s.stars}</text>
     <text x="25" y="110" fill="#8be9fd">🕒 Total Commits: ${s.commits}</text>
     <text x="25" y="140" fill="#8be9fd">🔀 Total PRs: ${s.prs}</text>
