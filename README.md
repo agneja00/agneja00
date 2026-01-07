@@ -1,6 +1,6 @@
-[![GitHub Stats](https://github-readme-stats-git-master-agneja00s-projects.vercel.app/api?username=agneja00&show_icons=true&include_all_commits=true&count_private=true&theme=radical&cache_seconds=86400&hide_border=false)](https://github.com/anuraghazra/github-readme-stats)
+![Stats](./scripts/cards/github-stats.svg?v=2)
+![Langs](./scripts/cards/top-langs.svg?v=2)
 
-[![Top Languages](https://github-readme-stats-git-master-agneja00s-projects.vercel.app/api/top-langs/?username=agneja00&layout=compact&show_icons=true&count_private=true&theme=radical&cache_seconds=86400&hide_border=false)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **agneja00/agneja00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

@@ -1,0 +1,36 @@
+name: Update GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-cards:
+    runs-on: ubuntu-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install axios fs-extra
+
+      - name: Generate GitHub Stats SVG
+        run: node scripts/generate-cards.js
+
+      - name: Commit and push updated cards
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/cards/
+          git commit -m "Update GitHub stats cards" || echo "No changes"
+          git push
