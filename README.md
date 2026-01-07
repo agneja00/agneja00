@@ -1,4 +1,5 @@
 [![GitHub stats](https://github-readme-stats-git-master-agneja00s-projects.vercel.app/api?username=agneja00)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-git-master-agneja00s-projects.vercel.app/api/top-langs/?username=agneja00)](https://github.com/anuraghazra/github-readme-stats)
 <!--
 **agneja00/agneja00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
