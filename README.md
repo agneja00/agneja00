@@ -1,5 +1,7 @@
-![Stats](./scripts/cards/github-stats.svg?v=2)
-![Langs](./scripts/cards/top-langs.svg?v=2)
+<div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+  <img src="./scripts/cards/github-stats.svg" width="500" />
+  <img src="./scripts/cards/top-langs.svg" width="500" />
+</div>
 
 <!--
 **agneja00/agneja00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,5 +1,5 @@
 
-<svg width="520" height="200" xmlns="http://www.w3.org/2000/svg">
+ <svg width="500" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1a1b2f"/>
@@ -7,42 +7,41 @@
     </linearGradient>
   </defs>
 
-  <rect width="520" height="200" rx="16" fill="url(#bg)"/>
+  <rect width="500" height="240" rx="16" fill="url(#bg)"/>
 
   <text x="30" y="38" fill="#ff79c6" font-size="22" font-family="Segoe UI" font-weight="bold">
     Most Used Languages
   </text>
 
-  <rect x="30" y="60" width="440" height="14" rx="7" fill="#2a2b45"/>
-  <rect x="30" y="60" width="210.08001825464615" height="14" fill="#f1e05a"/><rect x="240.08001825464615" y="60" width="148.05418423008254" height="14" fill="#2b7489"/><rect x="388.1342024847287" y="60" width="39.823404799861855" height="14" fill="#e34c26"/><rect x="427.95760728459055" y="60" width="23.256635039669938" height="14" fill="#c6538c"/><rect x="451.2142423242605" y="60" width="18.256619621894473" height="14" fill="#563d7c"/><rect x="469.47086194615497" y="60" width="0.529138053845039" height="14" fill="#89e051"/>
+  <rect x="30" y="60" width="210.94893347412884" height="14" fill="#f1e05a"/><rect x="240.94893347412884" y="60" width="147.49465681098206" height="14" fill="#2b7489"/><rect x="388.4435902851109" y="60" width="39.672903907074975" height="14" fill="#e34c26"/><rect x="428.1164941921858" y="60" width="23.168743400211195" height="14" fill="#c6538c"/><rect x="451.28523759239704" y="60" width="18.187624076029564" height="14" fill="#563d7c"/><rect x="469.4728616684266" y="60" width="0.5271383315733896" height="14" fill="#89e051"/>
   
-        <circle cx="40" cy="100" r="6" fill="#f1e05a"/>
-        <text x="54" y="105" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          JavaScript 47.75%
+        <circle cx="40" cy="120" r="6" fill="#f1e05a"/>
+        <text x="54" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
+          JavaScript 47.94%
         </text>
       
-        <circle cx="40" cy="128" r="6" fill="#2b7489"/>
-        <text x="54" y="133" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          TypeScript 33.65%
+        <circle cx="40" cy="148" r="6" fill="#2b7489"/>
+        <text x="54" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
+          TypeScript 33.52%
         </text>
       
-        <circle cx="40" cy="156" r="6" fill="#e34c26"/>
-        <text x="54" y="161" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          HTML 9.05%
+        <circle cx="40" cy="176" r="6" fill="#e34c26"/>
+        <text x="54" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
+          HTML 9.02%
         </text>
       
-        <circle cx="280" cy="100" r="6" fill="#c6538c"/>
-        <text x="294" y="105" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          SCSS 5.29%
+        <circle cx="270" cy="120" r="6" fill="#c6538c"/>
+        <text x="284" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
+          SCSS 5.27%
         </text>
       
-        <circle cx="280" cy="128" r="6" fill="#563d7c"/>
-        <text x="294" y="133" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          CSS 4.15%
+        <circle cx="270" cy="148" r="6" fill="#563d7c"/>
+        <text x="284" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
+          CSS 4.13%
         </text>
       
-        <circle cx="280" cy="156" r="6" fill="#89e051"/>
-        <text x="294" y="161" fill="#ffffff" font-size="15" font-family="Segoe UI">
+        <circle cx="270" cy="176" r="6" fill="#89e051"/>
+        <text x="284" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
           Shell 0.12%
         </text>
       

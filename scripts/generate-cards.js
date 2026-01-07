@@ -119,8 +119,6 @@ function makeLangsSVG(langs) {
   const barWidth = 440;
   let offset = 0;
 
-  const backgroundBar = `<rect x="30" y="60" width="${barWidth}" height="14" rx="7" fill="#2a2b45"/>`;
-
   const stacked = rows
     .map(([name, val]) => {
       const w = (val / total) * barWidth;
@@ -136,12 +134,14 @@ function makeLangsSVG(langs) {
       const perc = ((val / total) * 100).toFixed(2);
       const col = i < 3 ? 0 : 1;
       const row = i % 3;
-      const x = col === 0 ? 40 : 280;
-      const y = 105 + row * 28;
+      const x = col === 0 ? 40 : 270;
+      const y = 125 + row * 28;
       const color = langColors[name] || "#888";
       return `
         <circle cx="${x}" cy="${y - 5}" r="6" fill="${color}"/>
-        <text x="${x + 14}" y="${y}" fill="#ffffff" font-size="15" font-family="Segoe UI">
+        <text x="${
+          x + 14
+        }" y="${y}" fill="#ffffff" font-size="15" font-family="Segoe UI">
           ${name} ${perc}%
         </text>
       `;
@@ -149,7 +149,7 @@ function makeLangsSVG(langs) {
     .join("");
 
   return `
-<svg width="520" height="200" xmlns="http://www.w3.org/2000/svg">
+ <svg width="500" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1a1b2f"/>
@@ -157,21 +157,25 @@ function makeLangsSVG(langs) {
     </linearGradient>
   </defs>
 
-  <rect width="520" height="200" rx="16" fill="url(#bg)"/>
+  <rect width="500" height="240" rx="16" fill="url(#bg)"/>
 
   <text x="30" y="38" fill="#ff79c6" font-size="22" font-family="Segoe UI" font-weight="bold">
     Most Used Languages
   </text>
 
-  ${backgroundBar}
   ${stacked}
   ${items}
 </svg>`;
 }
 
-
 (async () => {
   const stats = await fetchStats();
-  await fs.writeFile(path.join(outputDir, "github-stats.svg"), makeStatsSVG(stats));
-  await fs.writeFile(path.join(outputDir, "top-langs.svg"), makeLangsSVG(stats.langs));
+  await fs.writeFile(
+    path.join(outputDir, "github-stats.svg"),
+    makeStatsSVG(stats)
+  );
+  await fs.writeFile(
+    path.join(outputDir, "top-langs.svg"),
+    makeLangsSVG(stats.langs)
+  );
 })();
