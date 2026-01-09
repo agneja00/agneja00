@@ -1,9 +1,0 @@
-
-<svg width="1040" height="260" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="1040" height="260">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex; gap:20px;">
-      <img src="./github-stats.svg" width="500"/>
-      <img src="./top-langs.svg" width="500"/>
-    </div>
-  </foreignObject>
-</svg>
