@@ -1,7 +1,10 @@
-<div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-  <img src="./scripts/cards/github-stats.svg" style="width:48%; min-width:360px;" />
-  <img src="./scripts/cards/top-langs.svg" style="width:48%; min-width:360px;" />
+<div style="text-align: center;">
+  <picture>
+    <source media="(max-width: 768px)" srcset="./scripts/cards/mobile-stack.svg">
+    <img src="./scripts/cards/desktop-row.svg" alt="GitHub Stats" />
+  </picture>
 </div>
+
 
 <!--
 **agneja00/agneja00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -1,0 +1,9 @@
+
+<svg width="520" height="520" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="520" height="520">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="display:flex; flex-direction:column; gap:20px;">
+      <img src="./github-stats.svg" width="500"/>
+      <img src="./top-langs.svg" width="500"/>
+    </div>
+  </foreignObject>
+</svg>
