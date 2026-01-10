@@ -1,6 +1,6 @@
 <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-  <img src="./scripts/cards/github-stats.svg" style="width:48%; min-width:360px;" />
-  <img src="./scripts/cards/top-langs.svg" style="width:48%; min-width:360px;" />
+  <img src="./scripts/cards/github-stats.svg?v=2" style="width:48%; min-width:360px;" />
+  <img src="./scripts/cards/top-langs.svg?v=2" style="width:48%; min-width:360px;" />
 </div>
 
 <!--
