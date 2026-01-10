@@ -1,5 +1,5 @@
 
- <svg width="500" height="240" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1a1b2f"/>
@@ -8,41 +8,40 @@
   </defs>
 
   <rect width="500" height="240" rx="16" fill="url(#bg)"/>
-
   <text x="30" y="38" fill="#ff79c6" font-size="22" font-family="Segoe UI" font-weight="bold">
     Most Used Languages
   </text>
 
-  <rect x="30" y="60" width="210.46345528315118" height="14" fill="#f1e05a"/><rect x="240.46345528315118" y="60" width="147.164641832274" height="14" fill="#2b7489"/><rect x="387.62809711542513" y="60" width="40.40139612044029" height="14" fill="#e34c26"/><rect x="428.0294932358654" y="60" width="23.29761808979767" height="14" fill="#c6538c"/><rect x="451.32711132566305" y="60" width="18.14692979935558" height="14" fill="#563d7c"/><rect x="469.47404112501863" y="60" width="0.5259588749813224" height="14" fill="#89e051"/>
+  <rect x="30" y="60" width="219.2530692110809" height="14" fill="#2b7489"/><rect x="249.2530692110809" y="60" width="97.74345345324775" height="14" fill="#f1e05a"/><rect x="346.99652266432867" y="60" width="60.19197267448895" height="14" fill="#e34c26"/><rect x="407.18849533881763" y="60" width="34.709929014861444" height="14" fill="#c6538c"/><rect x="441.89842435367905" y="60" width="27.036182100055026" height="14" fill="#563d7c"/><rect x="468.9346064537341" y="60" width="0.5429940704919642" height="14" fill="#384d54"/>
   
-        <circle cx="40" cy="120" r="6" fill="#f1e05a"/>
+        <circle cx="40" cy="120" r="6" fill="#2b7489"/>
         <text x="54" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          JavaScript 47.83%
+          TypeScript 49.83%
         </text>
       
-        <circle cx="40" cy="148" r="6" fill="#2b7489"/>
+        <circle cx="40" cy="148" r="6" fill="#f1e05a"/>
         <text x="54" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          TypeScript 33.45%
+          JavaScript 22.21%
         </text>
       
         <circle cx="40" cy="176" r="6" fill="#e34c26"/>
         <text x="54" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          HTML 9.18%
+          HTML 13.68%
         </text>
       
         <circle cx="270" cy="120" r="6" fill="#c6538c"/>
         <text x="284" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          SCSS 5.29%
+          SCSS 7.89%
         </text>
       
         <circle cx="270" cy="148" r="6" fill="#563d7c"/>
         <text x="284" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          CSS 4.12%
+          CSS 6.14%
         </text>
       
-        <circle cx="270" cy="176" r="6" fill="#89e051"/>
+        <circle cx="270" cy="176" r="6" fill="#384d54"/>
         <text x="284" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          Shell 0.12%
+          Dockerfile 0.12%
         </text>
       
 </svg>

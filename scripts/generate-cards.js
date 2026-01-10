@@ -41,10 +41,11 @@ async function fetchStats() {
     query($login: String!) {
       user(login: $login) {
         repositories(ownerAffiliations: OWNER, first: 100) {
-          totalCount
           nodes {
+            isArchived
+            isFork
             stargazerCount
-            languages(first: 20) {
+            languages(first: 50) {
               edges {
                 size
                 node { name }
@@ -66,18 +67,22 @@ async function fetchStats() {
     { login: username }
   );
 
-  const repos = data.user.repositories.nodes;
+  const repos = data.user.repositories.nodes.filter(
+    (r) => !r.isArchived && !r.isFork
+  );
 
   const langs = {};
+  let stars = 0;
+
   repos.forEach((r) => {
+    stars += r.stargazerCount;
     r.languages.edges.forEach((l) => {
       langs[l.node.name] = (langs[l.node.name] || 0) + l.size;
     });
   });
 
   return {
-    repos: data.user.repositories.totalCount,
-    stars: repos.reduce((s, r) => s + r.stargazerCount, 0),
+    stars,
     commits: data.user.contributionsCollection.totalCommitContributions,
     prs: data.user.contributionsCollection.totalPullRequestContributions,
     issues: data.user.contributionsCollection.totalIssueContributions,
@@ -92,12 +97,15 @@ function makeStatsSVG(s) {
 <svg width="500" height="240" viewBox="0 0 500 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-     <stop offset="0%" stop-color="#24244a"/>
-     <stop offset="100%" stop-color="#15152a"/>
+      <stop offset="0%" stop-color="#24244a"/>
+      <stop offset="100%" stop-color="#15152a"/>
     </linearGradient>
   </defs>
-  <rect width="500" height="240" rx="16" fill="url(#g)" filter="url(#shadow)"/>
-  <text x="30" y="38" fill="#ff79c6" font-size="22" font-family="Segoe UI" font-weight="bold">Agnieska's GitHub Stats</text>
+
+  <rect width="500" height="240" rx="16" fill="url(#g)"/>
+  <text x="30" y="38" fill="#ff79c6" font-size="22" font-family="Segoe UI" font-weight="bold">
+    Agnieska's GitHub Stats
+  </text>
 
   <g font-size="17" font-family="Segoe UI">
     <text x="25" y="80" fill="#8be9fd">⭐ Total Stars Earned: ${s.stars}</text>
@@ -110,11 +118,10 @@ function makeStatsSVG(s) {
 }
 
 function makeLangsSVG(langs) {
-  const rows = Object.entries(langs)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 6);
+  const entries = Object.entries(langs);
+  const total = entries.reduce((s, [, v]) => s + v, 0);
 
-  const total = rows.reduce((s, [, v]) => s + v, 0);
+  const rows = entries.sort((a, b) => b[1] - a[1]).slice(0, 6);
 
   const barWidth = 440;
   let offset = 0;
@@ -149,7 +156,7 @@ function makeLangsSVG(langs) {
     .join("");
 
   return `
- <svg width="500" height="240" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1a1b2f"/>
@@ -158,7 +165,6 @@ function makeLangsSVG(langs) {
   </defs>
 
   <rect width="500" height="240" rx="16" fill="url(#bg)"/>
-
   <text x="30" y="38" fill="#ff79c6" font-size="22" font-family="Segoe UI" font-weight="bold">
     Most Used Languages
   </text>
@@ -167,3 +173,17 @@ function makeLangsSVG(langs) {
   ${items}
 </svg>`;
 }
+
+(async () => {
+  const stats = await fetchStats();
+
+  await fs.writeFile(
+    path.join(outputDir, "github-stats.svg"),
+    makeStatsSVG(stats)
+  );
+
+  await fs.writeFile(
+    path.join(outputDir, "top-langs.svg"),
+    makeLangsSVG(stats.langs)
+  );
+})();

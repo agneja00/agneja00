@@ -12,11 +12,15 @@ jobs:
   generate-cards:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           ref: main
+          persist-credentials: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -42,4 +46,4 @@ jobs:
           fi
 
           git commit -m "Update GitHub stats cards"
-          git push origin HEAD:main
+          git push
