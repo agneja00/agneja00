@@ -45,5 +45,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update GitHub stats cards"
+          git commit -m "Updated GitHub stats cards"
           git push
