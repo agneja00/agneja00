@@ -1,6 +1,6 @@
 # 💫 About Me:
 
-Hello, everyone! 👋🏼<br><br>I am a motivated front-end developer who truly loves my job and does it with great enthusiasm and passion! ❤️‍🔥<br><br>Every day, I improve my skills by reading and learning new things, implementing projects, and solving various problems. For me, programming is more than just a hobby or a job, it's a teacher of life that helps me grow, not to stop despite all the mistakes and difficulties, but to boldly go towards my goals, not to give up, and to improve my personal qualities. That's why it's not just a part of my life, it's a part of me that helps me treat each project as a stage in my life and think through my work down to the smallest detail, implementing and constantly improving my ideas. 🚀
+Hello, everyone! 👋🏼<br><br>I'm a motivated front-end developer who truly loves my job and does it with great enthusiasm and passion! ❤️‍🔥<br><br>Every day, I improve my skills by reading and learning new things, implementing projects, and solving various problems. For me, programming is more than just a hobby or a job, it's a teacher of life that helps me grow, not to stop despite all the mistakes and difficulties, but to boldly go towards my goals, not to give up, and to improve my personal qualities. That's why it's not just a part of my life, it's a part of me that helps me treat each project as a stage in my life and think through my work down to the smallest detail, implementing and constantly improving my ideas. 🚀
 
 ## 🌐 Socials:
 
@@ -13,8 +13,8 @@ Hello, everyone! 👋🏼<br><br>I am a motivated front-end developer who truly 
 # 📊 GitHub Stats:
 
 <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-  <img src="./scripts/cards/github-stats.svg?v=2"/>
-  <img src="./scripts/cards/top-langs.svg?v=2"" />
+  <img src="./scripts/cards/github-stats.svg?v=2" style="width:48%; min-width:360px;" />
+  <img src="./scripts/cards/top-langs.svg?v=2" style="width:48%; min-width:360px;" />
 </div>
 
 ![](https://github-readme-stats.vercel.app/api?username=agneja00&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
