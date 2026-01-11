@@ -17,12 +17,4 @@ Hello, everyone! 👋🏼<br><br>I'm a motivated front-end developer who truly l
   <img src="./scripts/cards/top-langs.svg?v=2" style="width:48%; min-width:360px;" />
 </div>
 
-![](https://github-readme-stats.vercel.app/api?username=agneja00&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=agneja00&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=agneja00&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
----
-
-[![](https://visitcount.itsvg.in/api?id=agneja00&icon=0&color=0)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
