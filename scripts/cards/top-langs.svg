@@ -12,21 +12,37 @@
     Most Used Languages
   </text>
 
+<<<<<<< HEAD
   <rect x="30" y="60" width="218.1826670081201" height="14" fill="#2b7489"/><rect x="248.1826670081201" y="60" width="98.79859762357479" height="14" fill="#f1e05a"/><rect x="346.9812646316949" y="60" width="60.626627475065206" height="14" fill="#e34c26"/><rect x="407.6078921067601" y="60" width="34.48794450324192" height="14" fill="#c6538c"/><rect x="442.09583661000204" y="60" width="26.846670035875274" height="14" fill="#563d7c"/><rect x="468.9425066458773" y="60" width="0.5389676170705563" height="14" fill="#384d54"/>
   
         <circle cx="40" cy="120" r="6" fill="#2b7489"/>
         <text x="54" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
           TypeScript 49.59%
+=======
+  <rect x="30" y="60" width="218.0231962153066" height="14" fill="#2b7489"/><rect x="248.0231962153066" y="60" width="98.86962674686006" height="14" fill="#f1e05a"/><rect x="346.89282296216663" y="60" width="60.67021368277338" height="14" fill="#e34c26"/><rect x="407.56303664494" y="60" width="34.51273886794849" height="14" fill="#c6538c"/><rect x="442.07577551288847" y="60" width="26.865970870923995" height="14" fill="#563d7c"/><rect x="468.9417463838125" y="60" width="0.5393550962275534" height="14" fill="#384d54"/>
+  
+        <circle cx="40" cy="120" r="6" fill="#2b7489"/>
+        <text x="54" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
+          TypeScript 49.55%
+>>>>>>> 572d965cdd8a9324f07c7f992ade802ec7105863
         </text>
       
         <circle cx="40" cy="148" r="6" fill="#f1e05a"/>
         <text x="54" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
+<<<<<<< HEAD
           JavaScript 22.45%
+=======
+          JavaScript 22.47%
+>>>>>>> 572d965cdd8a9324f07c7f992ade802ec7105863
         </text>
       
         <circle cx="40" cy="176" r="6" fill="#e34c26"/>
         <text x="54" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
+<<<<<<< HEAD
           HTML 13.78%
+=======
+          HTML 13.79%
+>>>>>>> 572d965cdd8a9324f07c7f992ade802ec7105863
         </text>
       
         <circle cx="270" cy="120" r="6" fill="#c6538c"/>
@@ -36,7 +52,11 @@
       
         <circle cx="270" cy="148" r="6" fill="#563d7c"/>
         <text x="284" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
+<<<<<<< HEAD
           CSS 6.10%
+=======
+          CSS 6.11%
+>>>>>>> 572d965cdd8a9324f07c7f992ade802ec7105863
         </text>
       
         <circle cx="270" cy="176" r="6" fill="#384d54"/>
