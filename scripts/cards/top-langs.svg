@@ -12,31 +12,31 @@
     Most Used Languages
   </text>
 
-  <rect x="30" y="60" width="214.06010908306632" height="14" fill="#2b7489"/><rect x="244.06010908306632" y="60" width="98.76713455727528" height="14" fill="#f1e05a"/><rect x="342.82724364034164" y="60" width="65.58093514382466" height="14" fill="#e34c26"/><rect x="408.4081787841663" y="60" width="34.212460728095" height="14" fill="#c6538c"/><rect x="442.6206395122613" y="60" width="26.341848453248367" height="14" fill="#563d7c"/><rect x="468.96248796550964" y="60" width="0.5287838327600506" height="14" fill="#384d54"/>
+  <rect x="30" y="60" width="213.68808430921666" height="14" fill="#2b7489"/><rect x="243.68808430921666" y="60" width="98.59548267381673" height="14" fill="#f1e05a"/><rect x="342.2835669830334" y="60" width="66.23165502117497" height="14" fill="#e34c26"/><rect x="408.51522200420834" y="60" width="34.153001340637296" height="14" fill="#c6538c"/><rect x="442.6682233448456" y="60" width="26.29606775989275" height="14" fill="#563d7c"/><rect x="468.9642911047384" y="60" width="0.5278648353502082" height="14" fill="#384d54"/>
   
         <circle cx="40" cy="120" r="6" fill="#2b7489"/>
         <text x="54" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          TypeScript 48.65%
+          TypeScript 48.57%
         </text>
       
         <circle cx="40" cy="148" r="6" fill="#f1e05a"/>
         <text x="54" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          JavaScript 22.45%
+          JavaScript 22.41%
         </text>
       
         <circle cx="40" cy="176" r="6" fill="#e34c26"/>
         <text x="54" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          HTML 14.90%
+          HTML 15.05%
         </text>
       
         <circle cx="270" cy="120" r="6" fill="#c6538c"/>
         <text x="284" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          SCSS 7.78%
+          SCSS 7.76%
         </text>
       
         <circle cx="270" cy="148" r="6" fill="#563d7c"/>
         <text x="284" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          CSS 5.99%
+          CSS 5.98%
         </text>
       
         <circle cx="270" cy="176" r="6" fill="#384d54"/>
