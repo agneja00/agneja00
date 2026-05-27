@@ -12,26 +12,26 @@
     Most Used Languages
   </text>
 
-  <rect x="30" y="60" width="214.25459478090707" height="14" fill="#2b7489"/><rect x="244.25459478090707" y="60" width="97.85828172427979" height="14" fill="#f1e05a"/><rect x="342.1128765051869" y="60" width="65.69301415403774" height="14" fill="#e34c26"/><rect x="407.8058906592246" y="60" width="34.67399014887869" height="14" fill="#c6538c"/><rect x="442.4798808081033" y="60" width="26.482482571520695" height="14" fill="#563d7c"/><rect x="468.962363379624" y="60" width="0.5288473298569031" height="14" fill="#384d54"/>
+  <rect x="30" y="60" width="214.46133265369946" height="14" fill="#2b7489"/><rect x="244.46133265369946" y="60" width="97.81265476788018" height="14" fill="#f1e05a"/><rect x="342.27398742157965" y="60" width="65.75640245157886" height="14" fill="#e34c26"/><rect x="408.0303898731585" y="60" width="34.42293630769608" height="14" fill="#c6538c"/><rect x="442.4533261808546" y="60" width="26.50803596569036" height="14" fill="#563d7c"/><rect x="468.96136214654496" y="60" width="0.5293576235666755" height="14" fill="#384d54"/>
   
         <circle cx="40" cy="120" r="6" fill="#2b7489"/>
         <text x="54" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          TypeScript 48.69%
+          TypeScript 48.74%
         </text>
       
         <circle cx="40" cy="148" r="6" fill="#f1e05a"/>
         <text x="54" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          JavaScript 22.24%
+          JavaScript 22.23%
         </text>
       
         <circle cx="40" cy="176" r="6" fill="#e34c26"/>
         <text x="54" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          HTML 14.93%
+          HTML 14.94%
         </text>
       
         <circle cx="270" cy="120" r="6" fill="#c6538c"/>
         <text x="284" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          SCSS 7.88%
+          SCSS 7.82%
         </text>
       
         <circle cx="270" cy="148" r="6" fill="#563d7c"/>
