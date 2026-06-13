@@ -1,6 +1,19 @@
 # 💫 About Me:
 
-Hello, everyone! 👋🏼<br><br>I'm a motivated front-end developer who truly loves my job and does it with great enthusiasm and passion! ❤️‍🔥<br><br>Every day, I improve my skills by reading and learning new things, implementing projects, and solving various problems. For me, programming is more than just a hobby or a job, it's a teacher of life that helps me grow, not to stop despite all the mistakes and difficulties, but to boldly go towards my goals, not to give up, and to improve my personal qualities. That's why it's not just a part of my life, it's a part of me that helps me treat each project as a stage in my life and think through my work down to the smallest detail, implementing and constantly improving my ideas. 🚀
+Hi! I'm Agnieska, a Frontend Developer specializing in React and TypeScript, passionate about building modern, responsive, and user-friendly web applications and business websites.
+
+For the past few years, I have been continuously developing my frontend skills through personal projects, learning, and hands-on practice with modern web technologies.
+
+Today, I am actively working with my first commercial clients while continuing to expand my portfolio and gain real-world experience. I enjoy turning ideas into functional, clean, and visually appealing digital products.
+
+Currently interested in:
+
+🌐 Business websites
+🛒 Shopify & e-commerce
+⚛️ React applications
+📱 Responsive interfaces
+
+Always learning, always building. 👩‍💻
 
 ## 🌐 Socials:
 
