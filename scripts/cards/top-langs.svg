@@ -12,26 +12,26 @@
     Most Used Languages
   </text>
 
-  <rect x="30" y="60" width="221.90981963720924" height="14" fill="#2b7489"/><rect x="251.90981963720924" y="60" width="91.06207218435479" height="14" fill="#f1e05a"/><rect x="342.97189182156404" y="60" width="61.29596452841022" height="14" fill="#e34c26"/><rect x="404.26785634997424" y="60" width="40.090991979860334" height="14" fill="#c6538c"/><rect x="444.3588483298346" y="60" width="24.677495799933297" height="14" fill="#563d7c"/><rect x="469.0363441297679" y="60" width="0.4911419121739462" height="14" fill="#384d54"/>
+  <rect x="30" y="60" width="222.0868585719231" height="14" fill="#2b7489"/><rect x="252.0868585719231" y="60" width="91.13472121033622" height="14" fill="#f1e05a"/><rect x="343.2215797822593" y="60" width="61.344866250200226" height="14" fill="#e34c26"/><rect x="404.56644603245957" y="60" width="39.77194586969664" height="14" fill="#c6538c"/><rect x="444.3383919021562" y="60" width="24.697183426082372" height="14" fill="#563d7c"/><rect x="469.03557532823856" y="60" width="0.4915337435992828" height="14" fill="#384d54"/>
   
         <circle cx="40" cy="120" r="6" fill="#2b7489"/>
         <text x="54" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          TypeScript 50.43%
+          TypeScript 50.47%
         </text>
       
         <circle cx="40" cy="148" r="6" fill="#f1e05a"/>
         <text x="54" y="153" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          JavaScript 20.70%
+          JavaScript 20.71%
         </text>
       
         <circle cx="40" cy="176" r="6" fill="#e34c26"/>
         <text x="54" y="181" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          HTML 13.93%
+          HTML 13.94%
         </text>
       
         <circle cx="270" cy="120" r="6" fill="#c6538c"/>
         <text x="284" y="125" fill="#ffffff" font-size="15" font-family="Segoe UI">
-          SCSS 9.11%
+          SCSS 9.04%
         </text>
       
         <circle cx="270" cy="148" r="6" fill="#563d7c"/>
